@@ -204,7 +204,7 @@ fn main() {
             "macos" => "c++",
             _ => "stdc++",
         };
-        println!("cargo:rustc-link-lib={}", cpp_lib);
+        //println!("cargo:rustc-link-lib={}", cpp_lib);
     }
 
     // https://github.com/openssl/openssl/pull/15086
